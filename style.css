@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  padding: 40px 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Montserrat', Arial, sans-serif;
+  color: #243047;
+  background: linear-gradient(135deg, #e7f0ff, #f9e7f3);
+}
+
+.profile-card {
+  width: 100%;
+  max-width: 560px;
+  padding: 38px 30px;
+  text-align: center;
+  background: white;
+  border-radius: 22px;
+  box-shadow: 0 14px 40px rgba(38, 53, 88, 0.12);
+}
+
+.profile-picture {
+  width: 145px;
+  height: 145px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #e9e7ff;
+}
+
+h1 {
+  margin: 22px 0 8px;
+  color: #5a4fcf;
+  font-size: 28px;
+}
+
+h2 {
+  margin: 0 0 18px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #7c8497;
+}
+
+p {
+  line-height: 1.8;
+  color: #596276;
+}
+
+.button {
+  display: inline-block;
+  margin: 14px 0;
+  padding: 12px 24px;
+  border-radius: 999px;
+  background: #5a4fcf;
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.button:hover {
+  background: #4035ad;
+}
+
+.interests {
+  margin-top: 22px;
+  padding-top: 14px;
+  border-top: 1px solid #eceef5;
+}
+
+.interests h3 {
+  color: #5a4fcf;
+}
+
+footer {
+  margin-top: 22px;
+  font-size: 12px;
+  color: #6b7280;
+}
